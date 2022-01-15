@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Frontend Design</title>
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Font CSS -->
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet" />
+    <!-- Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo me-auto"><a href="index.html">Maxeon</a></h1>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto" href="#">Products</a></li>
+            <li><a class="nav-link scrollto" href="#">Features</a></li>
+            <li><a class="nav-link scrollto" href="#">Use Cases</a></li>
+            <li><a class="nav-link scrollto" href="#">Pricing</a></li>
+            <li>
+              <!-- <a class="btn scrollto" href="#">Sign Up</a> -->
+              <button class="btn scrollto" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+              <div id="id01" class="modal">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+                <form class="modal-content animate" action="/action_page.php">
+                  <div class="Signup-page">
+                    <h2>Sign Up</h2>
+                    <label><b>Full Name</b></label>
+                    <input type="text" placeholder="First and Last Name" name="email" required>
+                    <label><b>Email</b></label>
+                    <input type="text" placeholder="username@email.com" name="email" required>
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Password" name="psw" required>
+                    <label><b>Confirm Password</b></label>
+                    <input type="password" placeholder="Re-enter password" name="psw-repeat" required>
+                    <div class="clearfix">
+                      <button type="submit" class="signupbtn">Sign Up</button>
+                      <p>By signing up, you agree to our Terms of Service & Privacy Policy</p>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex">
+      <div class="container">
+        <h1>Where <br />
+          words<br />fail,<br />Music<br />speaks.
+        </h1>
+      </div>
+    </section>
+    <!-- End Hero -->
+    <main id="main">
+    <!-- Products Section -->
+    <section id="about" class="about paddsection">
+      <div class="container">
+        <!-- Search bar -->
+        <!-- <div class="search-bar">
+          <input
+            class="form-control me-2 search-form"
+            type="search"
+            placeholder="Search for Playlists, Albums or Songs"
+            aria-label="Search"
+          />
+          </div> -->
+        <!-- Search bar end -->
+        <div class="row content">
+          <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6">
+            <h2>live sports.</h2>
+            <h2>music.</h2>
+            <h2>news.</h2>
+            <h2>podcasts.</h2>
+          </div>
+          <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 pt-4 pt-lg-0">
+            <div class="content-list">
+              <p>emuse brings you live <br />sports</p>
+              <p>emuse brings you <br />live music</p>
+              <p>emuse brings you live <br />news</p>
+              <p>emuse brings you live <br />podcast</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Products Section -->
+    <!-- Cta Section -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+        <div class="text-center">
+          <h3>Ut enim ad minima </h3>
+          <p>
+            At vero eos et accusamus et iusto odio dignissimos 
+            <br>ducimus qui blanditiis
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End Cta Section -->
+    <!-- Services Section -->
+    <section id="services" class="services section-bg text-center">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-xl-4 col-md-4 d-flex align-items-stretch">
+            <div class="icon-box">
+              <h4>dolores eos qui ratione</h4>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-xl-4 col-md-4 d-flex align-items-stretch mt-4 mt-md-0"
+            >
+            <div class="icon-box">
+              <h4>dolores eos qui ratione</h4>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-xl-4 col-md-4 d-flex align-items-stretch mt-4 mt-md-0"
+            >
+            <div class="icon-box">
+              <h4>dolores eos qui ratione</h4>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- End Services Section -->
+    <!-- Music Section start -->
+    <section id="music" class="paddsection">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6">
+            <div class="music-img">
+              <img class="img1" src="/assets/img/Bitmap-1.png" alt="" />
+              <img class="img2" src="/assets/img/Bitmap-2.png" alt="" />
+              <img class="img3" src="/assets/img/Bitmap-3.png" alt="" />
+              <img class="img4" src="/assets/img/Bitmap-4.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6">
+            <div class="music-content">
+              <h2>EVOLVE. <br />EXPLORE.</h2>
+              <p>All the pods you hold dear, find them here first.</p>
+              <p>From chart toppers to newly discovered gems.</p>
+              <button class="btn-group"><i class="fas fa-play"></i> <span>Listen Now</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="paddsection">
+      <div class="music-img-background"></div>
+    </div>
+    <div class="container">
+      <div class="content-title text-center">
+        <h2>Ut enim ad minima</h2>
+        <p>
+          At vero eos et accusamus et iusto odio dignissimos <br />ducimus qui
+          blanditiis
+        </p>
+      </div>
+    </div>
+    <!-- Music Section end -->
+    <!-- Features Section Start -->
+    <div id="features-two" class="section paddsection">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="text-wrapper">
+              <div>
+                <h3>Consequuntur magni </h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit 
+                  voluptatem accusantium doloremque laudantium, totam 
+                  rem aperiam, eaque ipsa quae ab illo inventore veritatis et 
+                  quasi architecto beatae vitae dicta sunt explicabo. Nemo 
+                  enim ipsam voluptatem quia 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="img-thumb">
+              <img class="img-fluid" src="assets/img/Frame-5.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="row text-section">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="img-thumb">
+              <img class="img-fluid" src="assets/img/Frame-5.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="text-wrapper">
+              <div>
+                <h3>Consequuntur magni </h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit 
+                  voluptatem accusantium doloremque laudantium, totam 
+                  rem aperiam, eaque ipsa quae ab illo inventore veritatis et 
+                  quasi architecto beatae vitae dicta sunt explicabo. Nemo 
+                  enim ipsam voluptatem quia 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row text-section">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="text-wrapper">
+                <div>
+                  <h3>Consequuntur magni </h3>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit 
+                    voluptatem accusantium doloremque laudantium, totam 
+                    rem aperiam, eaque ipsa quae ab illo inventore veritatis et 
+                    quasi architecto beatae vitae dicta sunt explicabo. Nemo 
+                    enim ipsam voluptatem quia 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="img-thumb">
+                <img class="img-fluid" src="assets/img/Frame-5.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features Section End -->
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 footer-contact">
+              <img src="/assets/img/rocket-1.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-6 footer-links">
+              <h4>Accusantium doloremque laudantium</h4>
+              <div class="footer-list mt-3">
+                <div class="row">
+                  <div class="col-6">
+                    <p><i class="fas fa-check-double"></i> Neque porro 
+                      <br>quisquam 
+                    </p>
+                    <p><i class="fas fa-check-double"></i> Neque porro 
+                      <br>quisquam 
+                    </p>
+                  </div>
+                  <div class="col-6">
+                    <p> <i class="fas fa-check-double"></i> Neque porro 
+                      <br>quisquam 
+                    </p>
+                    <p> <i class="fas fa-check-double"></i> Neque porro 
+                      <br>quisquam 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom clearfix">
+        <div class="copyright">
+          &copy; Copyright <strong></strong>. maxeon Inc. 2018-19 | Privacy
+          Policy | Terms of Service | Sitemap
+        </div>
+        <div class="credits">Maxeon</div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
